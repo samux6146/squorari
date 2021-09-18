@@ -16,7 +16,7 @@ app.get("/", async (req, res) => {
   </html>
   `)
 })
-app.listen(8080, () => { console.log("start") })
+app.listen(80, () => { console.log("start") })
 
 async function hack() {
   const url = "https://jozefstefan.org/wp-json/wp/v2/media/"
