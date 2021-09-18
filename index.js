@@ -11,7 +11,7 @@ app.get("/", async (req, res) => {
       <title>Test orari</title>
     </head>
     <body>
-      <iframe id="pdfviewer" src="http://docs.google.com/gview?embedded=true&url=${resul}&amp;embedded=true" frameborder="0" width="100%" height="100%"></iframe>
+      <iframe id="pdfviewer" src="http://docs.google.com/gview?embedded=true&url=${resul}" frameborder="0" width="100%" height="100%"></iframe>
     </body>
   </html>
   `)
