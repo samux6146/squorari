@@ -12,6 +12,7 @@ app.get("/", async (req, res) => {
     </head>
     <body>
       <iframe id="pdfviewer" src="http://docs.google.com/gview?embedded=true&url=${resul}" frameborder="0" width="100%" height="100%"></iframe>
+      <iframe id="pdfviewer" src="${resul}" frameborder="0" width="100%" height="100%"></iframe>
     </body>
   </html>
   `)
