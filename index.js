@@ -15,7 +15,6 @@ app.get("/", async (req, res) => {
     </body>
   </html>
   `)
-  console.log(resul)
 })
 app.listen(process.env.PORT, () => { console.log("start") })
 
