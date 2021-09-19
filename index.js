@@ -9,6 +9,7 @@ app.get("/", async (req, res) => {
   <html>
     <head>
       <title>Test orari</title>
+      <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
     </head>
     <body>
       <iframe id="pdfviewer" src="http://docs.google.com/gview?embedded=true&url=${resul}&amp;embedded=true"" frameborder="0" width="100%" height="100%"></iframe>
