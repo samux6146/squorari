@@ -6,8 +6,8 @@ var path = require('path')
 const app = express()
 
 app.use(express.static(path.join(__dirname, 'public')));
-//app.listen(process.env.PORT, () => { console.log("start") })
-app.listen(8080, () => { console.log("start") })
+app.listen(process.env.PORT, () => { console.log("start") })
+//app.listen(8080, () => { console.log("start") })
 
 app.get("/", async (req, res) => {
   let map = await hack()
